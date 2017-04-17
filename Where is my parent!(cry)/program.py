@@ -1,0 +1,1 @@
+find_children = lambda d: ''.join(sorted(d, key=lambda x: (x.lower(), x)))
